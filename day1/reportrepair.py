@@ -20,5 +20,3 @@ for i in range(len(report)):
 		for t in range(l+1, len(report)):
 			if report[i]+report[l]+report[t] == 2020:
 				print(report[i]*report[l]*report[t])
-
-
