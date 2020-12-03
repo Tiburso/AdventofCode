@@ -2,8 +2,6 @@
 
 nomes = [n for n in open("input.txt", "r")]
 
-print(nomes)
-
 final = 0
 for nome in nomes:
 	split = nome.split(" ")
@@ -17,7 +15,6 @@ for nome in nomes:
 			count += 1
 
 	if count >= eval(inf) and count <= eval(sup):
-		print(count, eval(inf), eval(sup))
 		final += 1
 
 print(final)
